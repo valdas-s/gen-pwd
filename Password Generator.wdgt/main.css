@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+
+    background-image: url(Default.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#masterPasswordText {
+    position: absolute;
+    top: 35px;
+    left: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 167px;
+    height: auto;
+}
+
+#siteKeyText {
+    color: black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 31px;
+    top: 66px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-family: 'Helvetica Neue';
+    font-size: 11pt;
+}
+
+#masterPassword {
+    position: absolute;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    top: 33px;
+    left: 177px;
+    width: 235px;
+}
+
+#siteKey {
+    position: absolute;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    top: 64px;
+    left: 177px;
+    width: 235px;
+}
+
+#generateButton {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 342px;
+    top: 129px;
+}
+
+#generatedPassword {
+    position: absolute;
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    left: 31px;
+    width: 381px;
+    top: 161px;
+}
+
+#passwordLengthText {
+    position: absolute;
+    top: 96px;
+    margin-left: auto;
+    left: 31px;
+    margin-right: auto;
+    height: auto;
+}
+
+#passwordLengthSlider {
+    position: absolute;
+    margin-top: 0px;
+    left: 175px;
+    top: 99px;
+    height: 15px;
+    width: 172px;
+}
+
+.fieldName {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#passwordLengthInfo {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 360px;
+    width: auto;
+    height: auto;
+    top: 99px;
+}

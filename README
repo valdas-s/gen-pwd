@@ -1,0 +1,15 @@
+Password generator allow to generate site-specific passwords from one master password and per-site keys.
+
+The project consists of:
+- Shell script to generate passwords from the command line
+- OS X Dashboard widget
+
+Pre-requisites:
+- Bash (for shell script)
+- OpenSSL
+- OS X for Dashboard ;)
+
+INSTALLATION
+
+To install Dashboard widget, navigate to this directory in OSX Finder, and open the 'Password Generator' widget. This will install the widget on your Dashboard.
+
